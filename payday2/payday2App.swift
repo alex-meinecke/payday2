@@ -13,7 +13,7 @@ struct payday2App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TripView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

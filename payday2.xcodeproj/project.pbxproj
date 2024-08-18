@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		DA27452E2C71207F00A40D3B /* payday2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27452D2C71207F00A40D3B /* payday2App.swift */; };
-		DA2745302C71207F00A40D3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27452F2C71207F00A40D3B /* ContentView.swift */; };
 		DA2745322C71208200A40D3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2745312C71208200A40D3B /* Assets.xcassets */; };
 		DA2745352C71208200A40D3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2745342C71208200A40D3B /* Preview Assets.xcassets */; };
 		DA2745372C71208200A40D3B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2745362C71208200A40D3B /* Persistence.swift */; };
 		DA27453A2C71208200A40D3B /* payday2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA2745382C71208200A40D3B /* payday2.xcdatamodeld */; };
+		DA2745442C71213F00A40D3B /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2745432C71213F00A40D3B /* TripView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA27452A2C71207F00A40D3B /* payday2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = payday2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA27452D2C71207F00A40D3B /* payday2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payday2App.swift; sourceTree = "<group>"; };
-		DA27452F2C71207F00A40D3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA2745312C71208200A40D3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2745342C71208200A40D3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA2745362C71208200A40D3B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DA2745392C71208200A40D3B /* payday2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = payday2.xcdatamodel; sourceTree = "<group>"; };
+		DA2745432C71213F00A40D3B /* TripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,10 @@
 		DA27452C2C71207F00A40D3B /* payday2 */ = {
 			isa = PBXGroup;
 			children = (
+				DA2745422C7120AA00A40D3B /* view */,
+				DA2745412C71209D00A40D3B /* viewModel */,
+				DA2745402C71209500A40D3B /* model */,
 				DA27452D2C71207F00A40D3B /* payday2App.swift */,
-				DA27452F2C71207F00A40D3B /* ContentView.swift */,
 				DA2745312C71208200A40D3B /* Assets.xcassets */,
 				DA2745362C71208200A40D3B /* Persistence.swift */,
 				DA2745382C71208200A40D3B /* payday2.xcdatamodeld */,
@@ -71,6 +73,28 @@
 				DA2745342C71208200A40D3B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA2745402C71209500A40D3B /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DA2745412C71209D00A40D3B /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		DA2745422C7120AA00A40D3B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DA2745432C71213F00A40D3B /* TripView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA2745372C71208200A40D3B /* Persistence.swift in Sources */,
-				DA2745302C71207F00A40D3B /* ContentView.swift in Sources */,
 				DA27453A2C71208200A40D3B /* payday2.xcdatamodeld in Sources */,
 				DA27452E2C71207F00A40D3B /* payday2App.swift in Sources */,
+				DA2745442C71213F00A40D3B /* TripView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
